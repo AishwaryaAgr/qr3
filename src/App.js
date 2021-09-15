@@ -73,7 +73,7 @@ function App() {
                       <Grid item xl={4} lg={4} md={6} sm={12} xs={12}>
                          <h3>Qr Code Scan by Web Cam</h3>
                          <QrReader
-                         delay={300}
+                         delay={3}
                          style={{width: '100%'}}
                          onError={handleErrorWebCam}
                          onScan={handleScanWebCam}
